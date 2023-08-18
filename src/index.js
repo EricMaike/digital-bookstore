@@ -4,7 +4,7 @@ import App from './App';
 import AppContext from './AppContext';
 
 ReactDOM.render(
-  <AppContext.Provider>
+  <AppContext.Provider value={'cart: []'}>
     <App />
   </AppContext.Provider>,
   document.getElementById('root')
